@@ -7,12 +7,12 @@
 </head>
 <body>
     <h1>Hola al DOM</h1>
-    <ul id="lista-dinamica"></ul>
-    <template>
-        <li class="list">
-            <b>nombre: </b> <span class="text-danger">descripción...</span>
-        </li>
-    </template>
+    <div class="container py-5 text-center bg-warning">
+        <button class="btn btn-info">Aumentar</button>
+        <button class="btn btn-danger">Disminuir</button>
+        <h4 class="mt-5">Contador: <span id="resultado">0</span></h4>
+    </div>
+    <template id="template-contador"></template>
     <script src="./app.js"></script>
 </body>
 </html>
